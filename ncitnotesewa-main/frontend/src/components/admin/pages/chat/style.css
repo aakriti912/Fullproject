@@ -1,0 +1,91 @@
+
+.chat-title {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    border-bottom: 10px solid #f2f2f2;
+}
+
+.chat-main-box {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+
+}
+
+.messageListBox {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid #f2f2f2;
+}
+
+.receivedMessageBox {
+    width: 100%;
+    background: #e3e3e3;
+    margin-bottom: 5px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.senderMessageBox {
+    width: 100%;
+    background: #0074cb;
+    margin-bottom: 5px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+.user-list-item {
+    display: flex;
+}
+
+.user-list-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.user-list-item:hover {
+    background: #f2f2f2;
+}
+.user-list-item h4{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.user-list-item-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.chat-box-header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chat-box-header img {
+    border: 3px solid #e3e2e2;
+    padding: 2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.no-user-select{
+    text-align: center;
+}
+.no-user-select h1{
+    line-height: 200px;
+}
+
+.userBoxList{
+    border-left: 2px solid #f1efef;
+
+}
